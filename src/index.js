@@ -1,8 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import add from "ramda/es/add";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+document.write(add(2, 3));
